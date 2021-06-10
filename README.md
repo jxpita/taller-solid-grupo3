@@ -3,18 +3,31 @@
 
 Taller: identificar violaciones a los principios SOLID y corregir código fuente para que cumpla con ellos.
 
+Integrantes:
+* Milca Flores
+* Juan Pita
+* Gabriela Ramos
+
+
 ## Literal 1
-Se incumple: OCP
+Se incumple: OCP (Open-Closed Principle)
 
 Razón: En caso de querer introducir nuevos postres, se tendría que modificar el código actual, ya que solo se tienen dos clases con dos tipos de postres.
 La solución sería crear una función padre llamada Postre que permita heredar las funcionalidades de todo tipo de postre.
 
-Evidencia
-Previa:![ocp](https://user-images.githubusercontent.com/57634672/121573760-36463380-c9eb-11eb-97d5-6a47ebb83bee.PNG)
+Evidencia Previa:
+![ocp](https://user-images.githubusercontent.com/57634672/121573760-36463380-c9eb-11eb-97d5-6a47ebb83bee.PNG)
 
 
 
 ## Literal 2
+Se incumple: ISP (Interface Segregation Principle)
+
+Razón: Si se agregan nuevos postres, no necesariamente se van a usar los métodos añadir/quitar de los anteriores postres existentes.
+
+Evidencia Previa:
+![image](https://user-images.githubusercontent.com/34144827/121578800-ae632800-c9f0-11eb-8d02-6a56b76a61e3.png)
+
 
 ## Literal 3
 
@@ -32,7 +45,4 @@ Evidencia Previa:
 
 
 
-Integrantes:
-* Milca Flores
-* Juan Pita
-* Gabriela Ramos
+
