@@ -30,6 +30,14 @@ Evidencia Previa:
 
 
 ## Literal 3
+Se viola: OCP
+
+Razón: Dado que cada tipo de postre requiere de su propia implementación para los métodos calcularPrecioFinal() y  showPrecioFinal, se debería crear una clase abstracta o interfaz que declare dichos métodos.
+
+Evidencia Previa:
+![ocp2](https://user-images.githubusercontent.com/57634672/121581610-a0fb6d00-c9f3-11eb-8a46-3d3b570ac85a.PNG)
+
+
 
 ## Literal 4
 
