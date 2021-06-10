@@ -4,7 +4,14 @@
 Taller: identificar violaciones a los principios SOLID y corregir código fuente para que cumpla con ellos.
 
 # Literal 1
-Las clases Helado y Pastel tienen los mismos atributos y el mismo método calcularPrecioFinal() por lo que vendrían a tener código repetido a pesar de ser distintos tipos de postres. No cumple con el SRP (Single Responsability Principle) ya que no hace algo específico relacionado a cada objeto y estos comparten lo mismo por lo cual sería de crear una clase padre llamado 'Postres' donde Helado y Pastel herenden de ellas ajustandolo a su propio comportamiento. 
+Se viola: OCP
+
+Razón: En caso de querer introducir nuevos postres, se tendría que modificar el código actual, ya que solo se tienen dos clases con dos tipos de postres.
+La solución sería crear una función padre llamada Postre que permita heredar las funcionalidades de todo tipo de postre.
+
+Evidencia
+Previa:![ocp](https://user-images.githubusercontent.com/57634672/121573760-36463380-c9eb-11eb-97d5-6a47ebb83bee.PNG)
+
 
 
 
