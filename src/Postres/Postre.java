@@ -6,13 +6,15 @@
 package Postres;
 
 import Adicionales.Aderezo;
+import Procesos.ManejadorDePrecio;
+
 import java.util.ArrayList;
 
 /**
  *
  * @author gabrielaramos
  */
-public abstract class Postre {
+public abstract class Postre extends ManejadorDePrecio {
     private String sabor;
     private ArrayList<Aderezo> aderezos;
 
@@ -24,7 +26,6 @@ public abstract class Postre {
     public String getSabor() {
         return sabor;
     }
-    
     
     public ArrayList<Aderezo> getAderezos(){
         return this.aderezos;

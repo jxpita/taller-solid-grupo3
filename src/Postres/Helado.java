@@ -20,13 +20,15 @@ public class Helado extends Postre{
         this.precioParcial = 7.85;
     }
     
+    @Override
     public double calcularPrecioFinal(){
         double precioFinal;
         precioFinal=(precioParcial+(precioParcial*0.12))+(this.getAderezos().size()*0.50);
         return precioFinal;
 
     }
-
+    
+    @Override
     public String showPrecioFinal(){
         return "Precio Final: $ " + calcularPrecioFinal();
     }
