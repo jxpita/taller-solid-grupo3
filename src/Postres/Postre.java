@@ -20,7 +20,7 @@ public abstract class Postre extends ManejadorDePrecio {
 
     public Postre(String sabor) {
         this.sabor = sabor;
-
+        aderezos = new ArrayList<Aderezo>();
     }
 
     public String getSabor() {
