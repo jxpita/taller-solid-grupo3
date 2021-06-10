@@ -12,6 +12,7 @@ import Adicionales.Aderezo;
  *
  * @author Pedro Mendoza
  */
+
 public class Pastel extends Postre{
 
 	private double precioParcial;
@@ -25,7 +26,8 @@ public class Pastel extends Postre{
         double precioFinal;
         precioFinal=(precioParcial+(precioParcial*0.12))+(this.getAderezos().size()*0.50);
         return precioFinal;
-    }
+
+    }   
 
     @Override
     public String toString() {

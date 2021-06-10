@@ -13,11 +13,10 @@ import Adicionales.Aderezo;
  * @author Pedro Mendoza
  */
 public class Helado extends Postre{
-	
     private double precioParcial;
     
     public Helado(String sabor){
-    	super(sabor);
+        super(sabor);
         this.precioParcial = 7.85;
     }
     
@@ -25,17 +24,17 @@ public class Helado extends Postre{
         double precioFinal;
         precioFinal=(precioParcial+(precioParcial*0.12))+(this.getAderezos().size()*0.50);
         return precioFinal;
+
     }
 
-    @Override
-    public String toString() {
-        return "Helado{" + "sabor=" + this.getSabor() + ", precioParcial=" + precioParcial + ", aderezos=" + this.getAderezos() + '}';
-    }
-    
     public String showPrecioFinal(){
         return "Precio Final: $ " + calcularPrecioFinal();
     }
+    @Override
+    public String toString() {
+        return "Helado{" + "sabor=" + getSabor() + ", precioParcial=" + precioParcial + ", aderezos=" +  this.getAderezos() + '}';
+    }
     
-    
+
     
 }
