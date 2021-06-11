@@ -42,6 +42,9 @@ Razón: Dado que cada tipo de postre requiere de su propia implementación para 
 Evidencia Previa:
 ![ocp2](https://user-images.githubusercontent.com/57634672/121581610-a0fb6d00-c9f3-11eb-8a46-3d3b570ac85a.PNG)
 
+Solución: Se creó la clase ManejadorDePrecios para la implementación de los métodos calcularPrecioFinal() y showPrecioFinal().
+![image](https://user-images.githubusercontent.com/34144827/121630949-c617cc00-ca43-11eb-8938-cb93dcbe6af6.png)
+
 
 # Literal 4
 Se incumple: DIP (Dependency Inversion PRinciple
