@@ -17,7 +17,6 @@ La solución sería crear una función padre llamada Postre que permita heredar 
 
 Evidencia Previa:
 ![ocp](https://user-images.githubusercontent.com/57634672/121573760-36463380-c9eb-11eb-97d5-6a47ebb83bee.PNG)
->>>>>>> 698610dd27e712549ca69e002fcdcf9c67e0b0b9
 
 
 # Literal 2
