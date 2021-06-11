@@ -25,7 +25,7 @@ public class ManejadorDeLeche {
 //        System.out.println(postre.getClass());
 //        System.out.println(Pastel.class);
         if(postre.getClass() == Pastel.class && this.leche.getClass() == LecheDeslactosada.class ){
-            System.out.println("No se puede usar Leche");
+            System.out.println("No se puede usar " + this.leche.getClass());
             this.leche = new LecheDescremada();
             leche.usarPastel();       
         }

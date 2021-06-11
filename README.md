@@ -4,7 +4,7 @@
 Taller: identificar violaciones a los principios SOLID y corregir código fuente para que cumpla con ellos.
 
 Integrantes:
-* Milca Flores
+* Milca Valdez
 * Juan Pita
 * Gabriela Ramos
 

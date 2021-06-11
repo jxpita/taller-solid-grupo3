@@ -11,7 +11,7 @@ public abstract class ManejadorDePrecio {
 
     
     public static String showPrecioFinal(Postre postre){
-        return "Precio Final: $ " + calcularPrecioFinal(postre);
+        return "Precio Final: $ " + String.format("%.2f", calcularPrecioFinal(postre));
     }        
         
 }
