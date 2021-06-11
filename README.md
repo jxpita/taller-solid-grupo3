@@ -18,6 +18,9 @@ La solución sería crear una función padre llamada Postre que permita heredar 
 Evidencia Previa:
 ![ocp](https://user-images.githubusercontent.com/57634672/121573760-36463380-c9eb-11eb-97d5-6a47ebb83bee.PNG)
 
+Solución: Se creo la clase Postre para que Helado y Pastel puedan heredar las carecterísticas, manteniendo solo los métodos necesarios dentro de las clases hijas.
+![image](https://user-images.githubusercontent.com/34144827/121629238-5d7b2000-ca40-11eb-8232-96fbd59dbf5c.png)
+
 
 # Literal 2
 Se incumple: ISP (Interface Segregation Principle)
@@ -26,6 +29,9 @@ Razón: Si se agregan nuevos postres, no necesariamente se van a usar los métod
 
 Evidencia Previa:
 ![image](https://user-images.githubusercontent.com/34144827/121578800-ae632800-c9f0-11eb-8d02-6a56b76a61e3.png)
+
+Solución: La clase Procesos.OperacionesAderezo fue eliminada puesto que la implementación de esos métodos se realizó en la clase Postre.
+![image](https://user-images.githubusercontent.com/34144827/121629419-b6e34f00-ca40-11eb-9c50-840ef8764014.png)
 
 
 # Literal 3
