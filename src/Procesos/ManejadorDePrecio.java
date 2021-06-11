@@ -8,7 +8,6 @@ public abstract class ManejadorDePrecio {
 
         return (postre.getPrecioFinal()+(postre.getPrecioFinal()*0.12)) + postre.getAderezos().size()*0.50;       
     }
-	public abstract String showPrecioFinal();
 
     
     public static String showPrecioFinal(Postre postre){

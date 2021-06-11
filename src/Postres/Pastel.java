@@ -14,17 +14,16 @@ import Adicionales.Aderezo;
  */
 
 public class Pastel extends Postre{
-    private double precioParcial;
 	
     public Pastel(String sabor){
     	super(sabor);        
-        this.precioParcial = 15.55;
+        this.setPrecioFinal(15.55);
     }
     
 
     @Override
     public String toString() {
-        return "Pastel{" + "sabor=" + this.getSabor() + ", precioParcial=" + precioParcial + ", aderezos=" +this.getAderezos() + '}';
+        return "Pastel{" + "sabor=" + this.getSabor() + ", precioParcial=" + getPrecioFinal() + ", aderezos=" +this.getAderezos() + '}';
     }
     
 

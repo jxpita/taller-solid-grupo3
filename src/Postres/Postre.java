@@ -36,6 +36,10 @@ public abstract class Postre  {
     public double getPrecioFinal() {
         return precioFinal;
     }
+
+    public void setPrecioFinal(double precioFinal) {
+        this.precioFinal = precioFinal;
+    }
     
    
     public void anadirAderezo(Aderezo aderezo){

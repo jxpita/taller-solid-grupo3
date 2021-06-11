@@ -12,7 +12,7 @@ package Adicionales;
 public class Malvaviscos extends Aderezo{
     
     public Malvaviscos(){
-        super("malvaviscos");
+        super("Malvaviscos");
     }
     
     @Override
