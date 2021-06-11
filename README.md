@@ -3,10 +3,6 @@
 
 Taller: identificar violaciones a los principios SOLID y corregir código fuente para que cumpla con ellos.
 
-<<<<<<< HEAD
-# Literal 1
-Se viola: OCP
-=======
 Integrantes:
 * Milca Flores
 * Juan Pita
@@ -15,15 +11,10 @@ Integrantes:
 
 ## Literal 1
 Se incumple: OCP (Open-Closed Principle)
->>>>>>> 698610dd27e712549ca69e002fcdcf9c67e0b0b9
 
 Razón: En caso de querer introducir nuevos postres, se tendría que modificar el código actual, ya que solo se tienen dos clases con dos tipos de postres.
 La solución sería crear una función padre llamada Postre que permita heredar las funcionalidades de todo tipo de postre.
 
-<<<<<<< HEAD
-Evidencia
-Previa:
-=======
 Evidencia Previa:
 ![ocp](https://user-images.githubusercontent.com/57634672/121573760-36463380-c9eb-11eb-97d5-6a47ebb83bee.PNG)
 >>>>>>> 698610dd27e712549ca69e002fcdcf9c67e0b0b9
