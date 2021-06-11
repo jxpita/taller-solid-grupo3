@@ -10,14 +10,16 @@ package Adicionales;
  * @author Juan Xavier Pita
  */
 public class Malvaviscos extends Aderezo{
-
-    public Malvaviscos(String nombre) {
-        super(nombre);
+    
+    public Malvaviscos(){
+        super("malvaviscos");
     }
-
+    
     @Override
-    public void setNombre() {
-        this.nombre = "MALVAVISCOS";
+    public void setNombre(String nombre) {
+        super.nombre = nombre;
     }
+
+
     
 }

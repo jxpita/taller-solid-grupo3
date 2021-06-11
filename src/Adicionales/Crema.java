@@ -10,14 +10,16 @@ package Adicionales;
  * @author Juan Xavier Pita
  */
 public class Crema extends Aderezo{
-
-    public Crema(String nombre) {
-        super(nombre);
+    
+    public Crema(){
+        super("crema");
     }
     
     @Override
-    public void setNombre() {
-        this.nombre = "CREMA";
+    public void setNombre(String nombre) {
+        super.nombre = nombre;
     }
+
+
 
 }

@@ -15,14 +15,25 @@ import Postres.*;
  * @author Pedro Mendoza
  */
 public class ManejadorDeLeche {
+        private LecheEntera leche;
+    public ManejadorDeLeche(LecheEntera leche){
+        this.leche = leche ;
+    }
     
-    public void cambiarTipoLeche(LecheEntera leche, Object postre){
+    public void cambiarTipoLeche(Object postre){
         // Cambiar tipo de leche en la preparación de los postres, usar leche deslactosada
-        System.out.println(postre.getClass());
-        System.out.println(Pastel.class);
-        if(postre.getClass() == Pastel.class){
-            leche.usarPastel();
-        }else{
+//        System.out.println(postre.getClass());
+//        System.out.println(Pastel.class);
+        if(postre.getClass() == Pastel.class && this.leche.getClass() == LecheDeslactosada.class ){
+            if(this.leche.getClass() == LecheDeslactosada.class){
+                System.out.println("No se puede usar Leche");
+                this.leche = new LecheDescremada();
+            }    
+            leche.usarPastel();       
+        }
+        
+        
+        else{
             leche.usarHelado();
         }
     }

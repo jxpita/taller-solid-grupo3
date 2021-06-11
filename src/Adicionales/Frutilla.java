@@ -11,13 +11,15 @@ package Adicionales;
  */
 public class Frutilla extends Aderezo{
 
-    public Frutilla(String nombre) {
-        super(nombre);
+    public Frutilla(){
+        super("frutilla");
+    }
+    
+    @Override
+    public void setNombre(String nombre) {
+        super.nombre = nombre;
     }
 
-    @Override
-    public void setNombre() {
-        this.nombre = "FRUTILLA";
-    }
+
     
 }

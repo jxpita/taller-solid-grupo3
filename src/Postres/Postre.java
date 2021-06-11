@@ -14,9 +14,10 @@ import java.util.ArrayList;
  *
  * @author gabrielaramos
  */
-public abstract class Postre extends ManejadorDePrecio {
+public abstract class Postre  {
     private String sabor;
     private ArrayList<Aderezo> aderezos;
+    private double precioFinal;
 
     public Postre(String sabor) {
         this.sabor = sabor;
@@ -27,9 +28,15 @@ public abstract class Postre extends ManejadorDePrecio {
         return sabor;
     }
     
+
     public ArrayList<Aderezo> getAderezos(){
         return this.aderezos;
     }
+
+    public double getPrecioFinal() {
+        return precioFinal;
+    }
+    
    
     public void anadirAderezo(Aderezo aderezo){
         aderezos.add(aderezo);

@@ -14,29 +14,20 @@ import Adicionales.Aderezo;
  */
 
 public class Pastel extends Postre{
-
-	private double precioParcial;
+    private double precioParcial;
 	
     public Pastel(String sabor){
     	super(sabor);        
         this.precioParcial = 15.55;
     }
     
-    public double calcularPrecioFinal(){
-        double precioFinal;
-        precioFinal=(precioParcial+(precioParcial*0.12))+(this.getAderezos().size()*0.50);
-        return precioFinal;
-
-    }   
 
     @Override
     public String toString() {
         return "Pastel{" + "sabor=" + this.getSabor() + ", precioParcial=" + precioParcial + ", aderezos=" +this.getAderezos() + '}';
     }
     
-    public String showPrecioFinal(){
-        return "Precio Final: $ " + calcularPrecioFinal();
-    }
+
 
     
 }
