@@ -54,6 +54,9 @@ Razón: Al ser un enum hace que aderezo sea muy estático generando una dependen
 Evidencia Previa:
 ![image](https://user-images.githubusercontent.com/34144827/121581993-1c5d1e80-c9f4-11eb-8fd4-f803231813f2.png)
 
+Solución: Se transformó el enum Aderezo a clase abstracta para que los tipos de aderezos la puedan heredar.
+![image](https://user-images.githubusercontent.com/34144827/121631674-278c6a80-ca45-11eb-9d2a-9a45d2905876.png)
+
 
 # Literal 5 
 Se incumple: LSP (Liskov Substitution Principle)
@@ -64,6 +67,8 @@ Evidencia Previa:
 ![sistema](https://user-images.githubusercontent.com/68141841/121576750-51ff0900-c9ee-11eb-8bfa-6e9cc6785a2d.png)
 ![clases](https://user-images.githubusercontent.com/68141841/121576744-50cddc00-c9ee-11eb-8b99-62a2b5f36990.png)
 
-
+Solución: Se agregó validación para evitar que se lance la excepción al intentar usar un pastel con leche deslactosada.
+![image](https://user-images.githubusercontent.com/34144827/121631875-894cd480-ca45-11eb-989d-ea826391ac6a.png)
+![image](https://user-images.githubusercontent.com/34144827/121631935-a8e3fd00-ca45-11eb-9e08-3f89a1a0ca8e.png)
 
 
